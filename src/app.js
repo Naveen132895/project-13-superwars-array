@@ -24,7 +24,7 @@ const PLAYERS = [
 // initialize players with image and strength
 const initPlayers = (players) => {
     let detailedPlayers = '';
-
+    //
     // Instead of forloop use Map method
     // Code here
 
@@ -57,3 +57,5 @@ const viewPlayers = (players) => {
 window.onload = () => {
     viewPlayers(initPlayers(PLAYERS));
 }
+
+//Program Completed.
